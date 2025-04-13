@@ -1,23 +1,5 @@
-import trataErros from './erros/funcoesErro.js';
-import fs from 'fs';
-const caminhoArquivo = process.argv;
-const link = caminhoArquivo[2];
 
-fs.readFile(link, 'utf-8', (erro, texto) => {
-    try {
-       if (erro)  {
-        throw erro;
-        return
-       }
-        
-        contaPalavras(texto);
-        
-    } catch (erro) {
-        trataErros(erro);
-    }
-})
-
-function contaPalavras(texto) {
+export function contaPalavras(texto) {
     const paragrafos = extraiParagrafos(texto);
     // Aprimoramento do código abaixo
     // https://cursos.alura.com.br/course/javascript-node-js-criando-primeira-biblioteca/task/155804
@@ -34,7 +16,7 @@ function contaPalavras(texto) {
         return verificaPalavrasDuplicadas(paragrafo);
     })
     */
-    console.log(contagem);
+    return contagem;
 
 }
 

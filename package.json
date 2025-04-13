@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-lib",
+  "version": "1.0.0",
+  "description": "*Uso do Node.js*",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogeriop/nodejs-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogeriop/nodejs-lib/issues"
+  },
+  "homepage": "https://github.com/rogeriop/nodejs-lib#readme"
+}
